@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <div class="about-me-content">
+            <img src="assets/me.png" width="250" alt="Minha Foto">
+
+            <h1>Matheus Aguiar</h1>
+            <h3>Desenvolvedor Backend</h3>
+            <p>
+                Como entusiasta em DevOps com mais de 2 anos de experiência no desenvolvimento de aplicações desktop e
+                web, APIs e microserviços, tenho trabalhado em soluções personalizadas para diversas necessidades, tanto
+                em ambientes Linux quanto Windows.</p>
+            <p>Confira um pouco mais sobre mim<a href="https://matheus-aguiar-dev.github.io/"> aqui</a></p>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Análise e Desenvolvimento de Sistemas -<strong> Uninter</strong><br />2022 - Até o momento</p>
+    </section>
+    <section id="experiencia">
+        <div class="experiencia-content">
+        <h2>Experiência</h2>
+        <p>Desenvolvedor Linux <br /> 2022 - Até o momento
+        </p>
+        <p>Como desenvolvedor backend, tenho experiência na criação e manutenção de funcionalidades em APIs utilizando
+            Laravel Lumen, com foco no desenvolvimento em PHP e tecnologias relacionadas. Liderei projetos de Pesquisa e
+            Desenvolvimento (P&D) e implementei aplicações na nuvem, garantindo eficiência e escalabilidade. Estou
+            comprometido em buscar soluções inovadoras e em fornecer código limpo e de alta qualidade.
+        </p>
+        </div>
+
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="#" method="POST" id="contact-form">
+          <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
